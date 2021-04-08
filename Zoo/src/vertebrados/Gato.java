@@ -6,7 +6,7 @@ public class Gato {
 		private String raça;
 		private char genero;
 		private float peso;
-		private String cor;
+		private String cor;	
 		private int idade;
 		private boolean vacina;
 		private boolean pedigree;
@@ -22,10 +22,6 @@ public class Gato {
 
 		public float getPeso() {
 			return peso;
-		}
-
-		public void setPeso(float peso) {
-			this.peso = peso;
 		}
 
 		public int getIdade() {
@@ -59,6 +55,10 @@ public class Gato {
 			this.genero=gen;
 			
 		}
+		public Gato(String string) {
+			// TODO Auto-generated constructor stub
+		}
+
 		//métodos de classes
 		public void miar() {
 			System.out.println("miau, miau, miau");
@@ -90,6 +90,11 @@ public class Gato {
 			o3.caçador(false);
 			Gato o4=new Gato("mestiço","preto",'F');
 			o4.caçador(true);
+		}
+
+		public void setPeso(float nextFloat) {
+			// TODO Auto-generated method stub
+			
 		}
 	
 }
